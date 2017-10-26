@@ -1,0 +1,176 @@
+html {
+    max-width: 960px;
+    font-family: sans-serif;
+}
+
+body, 
+.jumbotron {
+    background-color: #000;
+}
+
+.end {
+    margin-bottom: 30px;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+h1, 
+h2,
+a:link,
+a:visited {
+  color: #e9ac3f; 
+}
+
+a:hover, 
+a:active {
+    color: #a36c08;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 300%;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.head-image {
+    width: 100%; 
+}
+
+.jumbo {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.fade-in {
+    color: #000;
+    background-color: #e9ac3f;
+    width: 75%;
+    height: 60px;
+    margin-top: 10px; 
+    padding-top: 20px;
+    margin-left: 12.5%;
+    display: none;
+}
+ 
+p,
+li {
+    color: #ffd891;
+    max-width: 90%;
+    font-size: 125%;
+    line-height: 1.3;
+    margin: 0 4%; 
+    text-align: left;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.under-text {
+    margin-top: 20px;
+}
+
+
+
+/* -------------------- */
+/*  BLOCKQUOTE & ASIDE  */
+/* -------------------- */
+
+span {
+    font-style: italic;
+}
+
+.aside,
+.quote {
+    color: #ce8e19; 
+}
+
+.blockquote {
+    width: 50%;
+    background-color: #ffd891;
+    border-radius: 3px;
+    margin: 0 20% 2% 20%; 
+    padding: 3% 5% 3% 3%;
+    text-align: left;
+}
+
+.quote {
+    text-align: center; 
+    margin-bottom: -5px;
+}
+
+.quote-mark {
+    height: 30px;
+}
+
+.left-quote {
+    margin-left: 2%;
+}
+
+.right-quote {
+    margin-left: 88%;
+    padding-top: 3px;
+}
+    
+/* -- aside -- */
+
+.aside {
+    font-size: 120%;
+    background: #ffd891;
+    border-radius: 3px;
+    padding: 3%;
+    margin: 2%;
+    text-align: left;
+}    
+
+
+/* -------------------- */
+/*         BUTTON       */
+/* -------------------- */
+
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ce8e19;
+    border-color: #ffc967;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+
+.btn a {
+    text-decoration: none;
+    color: #ffd891;
+}
+
+/* -------------------- */
+/*   HEADSHOT IMAGES    */
+/* -------------------- */
+
+
+.headshot {
+    width: 300px;
+}
+
+.col-lg-4 {
+    text-align: center;
+}
+
+.col-lg-4:last-child {
+    margin-bottom: 10px;
+}
+
+.meth {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* palleton color scheme */
+/* http://paletton.com/#uid=10T0u0knmtfdSH4j7wVsapUulkq */ 
