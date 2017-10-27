@@ -154,13 +154,12 @@ span {
 /*   HEADSHOT IMAGES    */
 /* -------------------- */
 
+.headshots img {
+    align-content: center;
+}
 
 .headshot {
     width: 300px;
-}
-
-.col-lg-4 {
-    text-align: center;
 }
 
 .col-lg-4:last-child {
@@ -171,6 +170,30 @@ span {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+/* --------------------------- */
+/*    HEADSHOT IMAGE OVERLAY   */
+/* --------------------------- */
+
+.headshots {
+    position: relative;
+    width: 300px;
+}
+
+.headshots-text {
+    position: absolute; 
+    z-index: 1;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: #ffc967; 
+    font-weight: 600;
+    width: inherit;
+    background: rgba(18, 18, 18, 0.67);
+}
+
+
 
 /* palleton color scheme */
 /* http://paletton.com/#uid=10T0u0knmtfdSH4j7wVsapUulkq */ 
