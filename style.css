@@ -95,7 +95,7 @@ span {
     width: 50%;
     background-color: #ffd891;
     border-radius: 3px;
-    margin: 0 20% 2% 20%; 
+    margin: 0 20% 2% 25%;
     padding: 3% 5% 3% 3%;
     text-align: left;
 }
@@ -140,6 +140,7 @@ span {
     border-radius: 5px;
     background-color: #ce8e19;
     border-color: #ffc967;
+    margin-right: 50%;
     font-size: 100%;
     cursor: pointer;
 }
@@ -191,6 +192,7 @@ span {
     font-weight: 600;
     width: inherit;
     background: rgba(18, 18, 18, 0.67);
+    display: none;
 }
 
 
