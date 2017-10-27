@@ -50,9 +50,9 @@ h2 {
     color: #000;
     background-color: #e9ac3f;
     width: 75%;
-    height: 70px;
+    height: auto;
     margin-top: 10px;
-    padding-top: 15px;
+    padding: 15px;
     margin-left: 12.5%;
     /*display: none;*/
 }
