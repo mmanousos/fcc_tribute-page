@@ -3,8 +3,7 @@ html {
     font-family: sans-serif;
 }
 
-body, 
-.jumbotron {
+body {
     background-color: #000;
 }
 
@@ -51,11 +50,11 @@ h2 {
     color: #000;
     background-color: #e9ac3f;
     width: 75%;
-    height: 60px;
-    margin-top: 10px; 
-    padding-top: 20px;
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 15px;
     margin-left: 12.5%;
-    display: none;
+    /*display: none;*/
 }
  
 p,
