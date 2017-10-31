@@ -48,13 +48,13 @@ h2 {
 
 .fade-in {
     color: #000;
-    background-color: #e9ac3f;
+    background-color: #ffc967;
     width: 75%;
     height: auto;
     margin-top: 10px;
     padding: 15px;
     margin-left: 12.5%;
-    /*display: none;*/
+    display: none;
 }
  
 p,
@@ -193,8 +193,6 @@ span {
     background: rgba(18, 18, 18, 0.67);
     display: none;
 }
-
-
 
 /* palleton color scheme */
 /* http://paletton.com/#uid=10T0u0knmtfdSH4j7wVsapUulkq */ 
